@@ -1,16 +1,21 @@
-ul{
+ul {
     background-color: cyan;
     color: beige;
 }
-*{
+
+* {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h1, h2 {
+
+h1,
+h2 {
     text-align: center;
 }
+
 a:hover {
-    color:aquamarine;
+    color: aquamarine;
 }
+
 h1::first-letter {
     font-size: 200%;
 }
