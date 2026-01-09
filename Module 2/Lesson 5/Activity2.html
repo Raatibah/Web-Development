@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display and Flexbox</title>
+        <style>
+            .container {
+                display: flex;
+                border: 2px solid;
+                padding: 10px;
+                margin: 10px;
+                gap: 10px;
+            }
+            .column {
+                flex-direction: column;
+            }
+            .box {
+                background-color: aqua;
+                padding: 20px;
+                text-align: center;
+                flex: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Flexbox Row</h2>
+        <div class="container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
+        <h2>Flexbox Column</h2>
+        <div class="container column">
+            <div class="box">A</div>
+            <div class="box">B</div>
+            <div class="box">C</div>
+        </div>
+
+    </body>
+</html>
