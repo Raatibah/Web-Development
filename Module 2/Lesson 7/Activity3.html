@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Animation</title>
+     <style>
+        .moving-text {
+        font-size: 24px;
+        color: blue;
+        animation: moving 4s infinite alternate;
+        }
+        @keyframes moving {
+          0%  { 
+            transform: translateX(0);
+            color: blue;
+            }
+         50% {
+            transform: translateX(150px);
+            color: green;
+         }
+         100% {
+            transform: translateX(300px);
+            color: red;
+         }
+        }
+     </style>
+    </head>
+    <body>
+    <p class="moving-text">Watch me move!</p>
+    </body>
+</html>
