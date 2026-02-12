@@ -1,0 +1,29 @@
+.gallery {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: deepskyblue;
+    width: 260px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(red, green, blue, alpha);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.card img {
+    width: 100px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+button {
+    background-color: gold;
+    padding: 10px;
+    border-radius: 5px;
+}
