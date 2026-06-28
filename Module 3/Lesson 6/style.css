@@ -1,0 +1,81 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav {
+    position:fixed;
+    width:100%;
+    z-index: 10;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+.logo {
+    color: darkviolet;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.logo span{
+    color: blue;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+
+}
+nav ul a {
+    color: darkblue;
+    text-decoration: none;
+    font-size: .95rem;
+
+}
+nav ul a:hover {
+    color: black;
+}
+#home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aqua;
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("https: //plus.unsplash.com/premium_photo-1676823547752-1d24e8597047?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZSUyMGludGVyaW9yfGVufDB8fDB8fHww") center/cover;
+}
+.hero h1 {
+        font-family:'Times New Roman', Times, serif ;
+        font-weight: 800;
+        font-size: clamp(2rem, 5vw, 3.8rem);
+        margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.05rem;
+    color: aliceblue;
+    margin-bottom: 2.5rem;
+}
+.btn {
+    display: inline-block;
+    padding: 9rem 2.4rem;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0.4rem;
+}
+.btn-primary {
+    background-color: blue;
+    color: aquamarine;
+    border: 2px solid blue;
+}
+.btn-outline {
+    background-color: transparent;
+    color: aqua;
+    border: 2px solid white;
+}
