@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Tailwind Forms
+    </title>
+    <script src="
+        https://cdn.tailwindcss.com/
+        "></script>
+</head>
+
+<body class="bg-blue-400 min-h-screen p-8">
+    <form class="max-w-3xl mx-auto bg-blue-200 p-8 rounded-xl border border-slate-800 text-gray-200">
+    <h2 class="text-xl font-semibold mb-1 text-white">Personal Information</h2>
+    <p class="text-sm mb-6 text-blue-700">Use a permanent address for the mail.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div>
+            <label class="text-sm mb-1 block">First Name</label>
+            <input class="w-full px-3 py-2 bg-gray-200 border border-slate-700 round-lg focus:ring-2 focus:ring-indigo-500 outline-none" type="text" placeholder="Enter your first name">
+        </div>
+        <div>
+            <label class="text-sm mb-1 block">Last Name</label>
+            <input class="w-full px-3 py-2 bg-gray-200 border border-slate-700 round-lg focus:ring-2 focus:ring-indigo-500 outline-none"  type="text" placeholder="Enter your last name">
+        </div>
+        <div class="md:col-span-2"
+            <label class="text-sm mb-1 block">Email Address</label>
+            <input class="w-full px-3 py-2 bg-gray-200 border border-slate-700 round-lg focus:ring-2 focus:ring-indigo-500 outline-none"  type="email" placeholder="Enter your email address">
+        </div>
+        <div class="md:col-span-2"
+            <label class="text-sm mb-1 block">Phone number</label>
+            <input class="w-full px-3 py-2 bg-gray-200 border border-slate-700 round-lg focus:ring-2 focus:ring-indigo-500 outline-none"  type="tel" placeholder="Enter your phone number">
+        </div>
+        <div class="md:col-span-2">
+            <select class="text-sm mb-1 block" class="w-full px-3 py-2 bg-gray-200 border border-slate-700 round-lg focus:ring-2 focus:ring-indigo-500 outline-none" >
+                <option value="">Select your country</option>  
+                <option value="us">United States</option>
+                <option value="ca">Canada</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+        </div>
+    </div>
+    </form>
+</body>
+
+
+</html>
