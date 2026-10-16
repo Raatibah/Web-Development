@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Dashboard</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-[#f8f9fa] bg-gray-900 font-sans antialiased">
+        <div class="flex h-screen overflow-hidden">
+            <aside class="w-64 bg-white border-r border-gray-200 flex flex-col">
+                <div class="p-6">
+                    <h1 class="text-xl font-bold tracking-tight text-gray-900">EduPortal.</h1>
+                </div>
+                <nav class="flex-1 px-4 space-y-1">
+                    <a href="#" class="flex items-center px-3 py-2.5 bg-gray-100 text-sm font-medium rounded-lg">
+                        <i class="fas fa-home w-5 text-gray-600">Dashboard</i>
+                    </a>
+                    <a href="#" class="flex items-center px-3 py-2.5 text-gray-600 hover:bg-gray-50 text-sm rounded-lg">
+                        <i class="fas fa-book w-5">Courses</i>
+                    </a>
+                    <a href="#" class="flex items-center px-3 py-2.5 text-gray-600 hover:bg-gray-50 text-sm rounded-lg">
+                        <i class="fas fa-calendar w-5">Schedule</i>
+                    </a>
+                    <a href="#" class="flex items-center px-3 py-2.5 text-gray-600 hover:bg-gray-50 text-sm rounded-lg">
+                        <i class="fas fa-chart-bar w-5">Grades</i>
+                    </a>
+                </nav>
+            </aside>
+
+            <main class="flex-1 overflow-y-auto">
+                <header class="bg-white border-b border-gray-200 px-8 py-5 flex justify-between items-center">
+                    <div>
+                        <h2 class="text-lg font-semibold text-gray-800">Overview</h2>
+                        <p class="text-sm text-gray-500 mt-0.5">Welcome back, Raatibah</p>
+                    </div>
+                    <div class="w-9 h-9 bg-gray-900 rounded-full flex items-center justify-center text-white">
+                        N
+                    </div>
+                </header>
+
+                <div class="p-8 max-w-6xl mx-auto space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                        <div class="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
+                            <p class="text-sm text-gray-500 font-medium">Active courses</p>
+                            <h3 class="text-2xl font-semibold mt-1">6</h3>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
+                            <p class="text-sm text-gray-500 font-medium">Completed</p>
+                            <h3 class="text-2xl font-semibold mt-1">4</h3>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
+                            <p class="text-sm text-gray-500 font-medium">Average Grade</p>
+                            <h3 class="text-2xl font-semibold mt-1">87%</h3>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                        <div class="lg:col-span-2 bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+                            <h3 class="font-semibold text-gray-800 mb-4">Current Progress</h3>
+                            <div class="space-y-4">
+                                <div class="border border-gray-100 rounded-lg p-4">
+                                    <div class="flex justify-between items-center">
+                                        <h4>Web Development</h4>
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
